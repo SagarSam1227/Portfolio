@@ -10,7 +10,7 @@ export interface Project {
   liveUrl: string;
   githubUrl: string;
   highlights: string[];
-  mockupType: 'chess' | 'ecommerce' | 'realestate' | 'matrimony';
+  mockupType: string;
   image?: string; // Optional custom screenshot path (e.g. /projects/chess.png)
 }
 
