@@ -81,7 +81,8 @@ export const Navbar: React.FC = () => {
   };
 
   return (
-    <header
+    <>
+      <header
       className={`fixed top-0 left-0 right-0 z-40 transition-all duration-300 ${
         isScrolled
           ? 'bg-[#090b0e]/90 backdrop-blur-md border-b border-[#1f2632] py-3 shadow-lg shadow-black/30'
@@ -158,6 +159,7 @@ export const Navbar: React.FC = () => {
           </button>
         </div>
       </div>
+    </header>
 
       {/* Mobile Drawer Navigation */}
       {mobileMenuOpen && (
@@ -204,6 +206,6 @@ export const Navbar: React.FC = () => {
           </div>
         </div>
       )}
-    </header>
+    </>
   );
 };
