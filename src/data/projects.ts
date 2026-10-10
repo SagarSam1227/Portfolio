@@ -54,7 +54,7 @@ export const projects: Project[] = [
     liveUrl: ADD_TUTORFLOW_LIVE_URL,
     githubUrl: ADD_TUTORFLOW_GITHUB_URL,
     mockupType: "tutorflow",
-    image: "../src/assets/projects/tutorflow.png", // Place custom image at ../src/assets/projects/tutorflow.png and set path here if desired
+    image: "/projects/tutorflow.png", // Place custom image at /projects/tutorflow.png and set path here if desired
     highlights: [
   "Developed a multi-role tutoring platform with dedicated tutor and student dashboards using Next.js, React, TypeScript, and MongoDB.",
   "Implemented AI-powered pre-session lesson planning that generates personalized learning objectives, lesson outlines, and practice questions based on student profiles and session history.",
@@ -74,7 +74,7 @@ export const projects: Project[] = [
     liveUrl: ADD_RESTAURANT_BILLING_LIVE_URL,
     githubUrl: ADD_RESTAURANT_BILLING_GITHUB_URL,
     mockupType: "restaurant-billing",
-    image: "../src/assets/projects/restaurant-billing.png", // Place custom image at ../src/assets/projects/restaurant-billing.png and set path here if desired
+    image: "/projects/restaurant-billing.png", // Place custom image at /projects/restaurant-billing.png and set path here if desired
   highlights: [
   "Developed a restaurant billing system with an intuitive interface for managing orders, menu items, and customer bills.",
   "Implemented billing workflows with automatic total calculations, itemized bills, and efficient order processing.",
@@ -93,7 +93,7 @@ export const projects: Project[] = [
     liveUrl: ADD_MY_JEWELRY_LIVE_URL,
     githubUrl: ADD_MY_JEWELRY_GITHUB_URL,
     mockupType: "my-jewelry",
-    image: "../src/assets/projects/myjewelry.png", // Place custom image at ../src/assets/projects/my-jewelry.png and set path here if desired
+    image: "/projects/myjewelry.png", // Place custom image at /projects/my-jewelry.png and set path here if desired
    highlights: [
   "Developed a virtual jewelry store that allows customers to explore and discover jewelry designs through an interactive online shopping experience.",
   "Implemented real-time jewelry matching to help users find matching jewelry pieces and discover complementary designs.",
@@ -112,7 +112,7 @@ export const projects: Project[] = [
     liveUrl: ADD_CHESS_LIVE_URL,
     githubUrl: ADD_CHESS_GITHUB_URL,
     mockupType: "chess",
-    image: "../src/assets/projects/chess.png", // Place custom image at ../src/assets/projects/chess.png and set path here if desired
+    image: "/projects/chess.png", // Place custom image at /projects/chess.png and set path here if desired
     highlights: [
       "Reduced gameplay latency by 35% with optimized WebSocket payloads and state management.",
       "Improved cross-device usability by 30% through adaptive touch-friendly chessboard controls.",
@@ -131,7 +131,7 @@ export const projects: Project[] = [
     liveUrl: ADD_ECOMMERCE_LIVE_URL,
     githubUrl: ADD_ECOMMERCE_GITHUB_URL,
     mockupType: "ecommerce",
-    image: "", // Place custom image at ../src/assets/projects/ecommerce.png and set path here if desired
+    image: "", // Place custom image at /projects/ecommerce.png and set path here if desired
     highlights: [
       "Streamlined order workflows by 40% through role-specific purchasing and bulk checkout pipelines.",
       "Improved checkout efficiency by 25% with multi-step validation and persistent cart caching.",
@@ -150,7 +150,7 @@ export const projects: Project[] = [
     liveUrl: ADD_REAL_ESTATE_LIVE_URL,
     githubUrl: ADD_REAL_ESTATE_GITHUB_URL,
     mockupType: "realestate",
-    image: "", // Place custom image at ../src/assets/projects/real-estate.png and set path here if desired
+    image: "", // Place custom image at /projects/real-estate.png and set path here if desired
     highlights: [
       "Increased user interaction by 30% with an interactive property viewer and saved favorites.",
       "Improved data retrieval speed by 28% through indexed MongoDB queries and caching strategies.",
@@ -170,7 +170,7 @@ export const projects: Project[] = [
     liveUrl: ADD_WEDRING_LIVE_URL,
     githubUrl: ADD_WEDRING_GITHUB_URL,
     mockupType: "matrimony",
-    image: "", // Place custom image at ../src/assets/projects/wedring.png and set path here if desired
+    image: "", // Place custom image at /projects/wedring.png and set path here if desired
     highlights: [
       "Architected administrative control suite for profile verification and member management.",
       "Built resilient REST APIs with Node.js and Express.js supporting complex matchmaking queries.",
